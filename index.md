@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+Hi I'm [Daniel](http://danielmkarlsson.com/) and I live in Stockholm, Sweden on the most densely populated island in the country.  
+In the one bed room apartment that I share w/ one other person there is: 
 
-You can use the [editor on GitHub](https://github.com/C0dereview/c0dereview.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+- A kitchen
+- An ok computer monitor 
+- A crappy home stereo
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Because I had access to these things and, the crucial component, I wanted to, I created C0dereview.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/C0dereview/c0dereview.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## C0dereview is a thing
+C0dereview exists in order to facilitate sharing. In more practical terms it's a weekly chance for some people I know to meet, have a nice meal together and to share knowledge about their work with music, code and configuring computers. This usually happens on Thursdays at 17:00.
