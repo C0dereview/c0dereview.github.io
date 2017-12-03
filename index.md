@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 ### C0dereview is a thing
 
 C0dereview is a framework designed to facilitate sharing.  In more practical
