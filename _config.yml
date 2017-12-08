@@ -18,8 +18,8 @@ email:
 description: "c0dereview is a framework designed to facilitate sharing. In more practical terms it's a weekly chance for people to meet, have a meal together and to share knowledge about their work with music, code and configuring computers."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username:
+github_username:  C0dereview
 
 # Build settings
 markdown: kramdown
