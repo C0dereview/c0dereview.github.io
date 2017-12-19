@@ -27,7 +27,6 @@ to learning good things can happen.
 
 ### Tools for learning 
 The expressed aim of c0deReview is to produce tools for learning through
-informal presentations, discussion, collaboration and experimentation.  
-At the widest scope, dissemination of knowledge is, in and of it's own self,
-valuable.  When we learn from one another we flourish as a result of that
-learning.
+informal presentations, discussion, collaboration and experimentation. At the
+widest scope, dissemination of knowledge is, in and of it's own self, valuable.
+When we learn from one another we flourish as a result of that learning.
