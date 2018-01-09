@@ -1,0 +1,30 @@
+.post-content {
+  h1 {
+    font-size: 2em;
+    margin: 1em 0;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  hr {
+    margin: 1.5em 0;
+  }
+}
+
+.text-small {
+  font-size: 0.75em;
+}
+
+.image-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 5px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
