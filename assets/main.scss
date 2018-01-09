@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Mono');
 
 @import "minima";
 @import "custom/header";
@@ -10,6 +10,24 @@
 @import "custom/post";
 @import "./markdown.css";
 
+// global overrides
 body {
   font-family: 'Roboto', $base-font-family;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+
+  &:visited {
+    color: black;
+  }
+
+  &:active {
+    color: black;
+  }
+
+  &:hover {
+    color: black;
+  }
 }
