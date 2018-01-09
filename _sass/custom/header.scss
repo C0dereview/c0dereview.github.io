@@ -1,0 +1,20 @@
+.site-header {
+  border: none;
+  background: black;
+
+  .site-title {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-decoration: none;
+  }
+
+  .page-link {
+    color: white;
+  }
+
+  @include media-query($on-palm) {
+    .page-link {
+      color: black;
+    }
+  }
+}

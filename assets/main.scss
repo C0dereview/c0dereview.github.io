@@ -2,9 +2,13 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
+
 @import "minima";
+@import "custom/header";
+@import "custom/home";
 @import "./markdown.css";
 
-// .site-header {
-//   border: none;
-// }
+body {
+  font-family: 'Roboto', $base-font-family;
+}
