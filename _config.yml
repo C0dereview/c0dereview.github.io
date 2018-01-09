@@ -23,7 +23,6 @@ github_username:  C0dereview
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 
