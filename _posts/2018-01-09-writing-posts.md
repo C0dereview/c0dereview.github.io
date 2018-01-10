@@ -66,8 +66,6 @@ git push origin post/test-post
 
 Open your web browser and navigate to your fork on github.
 
-Switch to your new branch in the dropdown menu on the left (it should say: Branch master)
-
 Click on the button that says **Create Pull Request**.
 
 All done! Thanks for contributing to c0dereview ^_^
