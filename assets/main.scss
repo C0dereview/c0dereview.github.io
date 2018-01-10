@@ -9,6 +9,16 @@
 @import "custom/home";
 @import "custom/post";
 
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 // global overrides
 body {
   font-family: 'Roboto', $base-font-family;
