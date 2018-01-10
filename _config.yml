@@ -23,6 +23,7 @@ github_username:  C0dereview
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 plugins:
   - jekyll-feed
 
