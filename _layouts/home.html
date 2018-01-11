@@ -18,9 +18,11 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
 
-        {% for tag in post.tags %}
-          <span class="post-meta">{{ tag }}</span>
-        {% endfor %}
+        {% unless post.tags == empty %}
+          {% for tag in post.tags %}
+            <span class="post-meta">{{ tag }}</span>
+          {% endfor %}
+        {% endunless %}
 
       </li>
     {% endfor %}
