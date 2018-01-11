@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "Publishing content on c0dereview"
-date:   2018-01-10 16:30:00 +0100
+title:  "Creating new content on c0dereview"
+date:   2018-01-09 16:30:00 +0100
 author: David Granström
 categories: tutorial
 tags: c0dereview tutorial
 ---
 
-This post contains step-by-step instructions on how to submit new content to this website. You will need some experience with `git`, but you can check out this c0dereview [tutorial on git]({{ site.url }}/tutorial/2018/01/09/git-part-1) if you need to refresh your memory or learn the basics.
+This post contains step-by-step instructions on how to create and submit new content to this website. You will need some experience with `git`. You could check out this c0dereview [tutorial on git]({{ site.url }}/tutorial/2018/01/09/git-part-1) if you need to refresh your memory or learn the basics.
+
+The process described below is also very common when contributing to open source projects in general. Just subsitute the c0dereview github repository with whatever project you want to make a contribution to!
 
 ## Step 1
 
@@ -19,7 +21,7 @@ Go to the [c0dereview github repository](https://github.com/C0dereview/c0derevie
 
 Click the **fork** button found in the right side of the page.
 
-You will now have a personal fork of the website on your github profile.
+You will now have a personal fork of the repository on your github profile.
 
 ## Step 3
 
@@ -29,21 +31,21 @@ Clone the fork to your local machine.
 
 * Click the **Clone or download** button to get the url.
 
-Open up a terminal and type `git clone ` and paste in the url.
+Open up a terminal and `cd` to the directory where you want to store the repository.
 
-The command should look something like: `git clone https://github.com/C0dereview/c0dereview.github.io.git`
+Type `git clone ` and paste in the url.
+
+The complete command should look something like: `git clone https://github.com/C0dereview/c0dereview.github.io.git`
 
 ## Step 4
 
-Check out a new branch and name it `post/<title>`
+Check out a new branch and name it something relevant for your post `my-first-post`
 
-Here' an example.
+Here's an example.
 
 ```shell
-git checkout -b post/test-post
+git checkout -b my-first-post
 ```
-
-Subsitute *test-post* with the title of your post (it doesn't matter if you change the title of your actual post later).
 
 ## Step 5
 
@@ -61,7 +63,7 @@ git commit -m 'Add new post'
 And push it to your fork.
 
 ```
-git push origin post/test-post
+git push origin my-first-post
 ```
 
 Open your web browser and navigate to your fork on github.
