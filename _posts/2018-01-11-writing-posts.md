@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Creating new content on c0dereview"
-date:   2018-01-09 16:30:00 +0100
+title:  "Writing posts for c0dereview"
+date:   2018-01-11 11:30:00 +0100
 author: David Granström
 categories: tutorial
 tags: c0dereview tutorial
