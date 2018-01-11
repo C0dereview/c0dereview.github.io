@@ -1,0 +1,49 @@
+.post-content {
+  h1 {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  h2 {
+    font-size: 1.75em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  h4 {
+    font-size: 1.15em;
+    margin-bottom: 0.55em;
+  }
+
+  hr {
+    margin: 1.5em 0;
+
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  }
+}
+
+.text-small {
+  font-size: 0.75em;
+}
+
+.image-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 5px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
