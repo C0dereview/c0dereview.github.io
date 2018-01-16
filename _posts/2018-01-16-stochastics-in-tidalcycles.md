@@ -7,8 +7,6 @@ categories: tutorial
 tags: TidalCycles tutorial
 ---
 
-## Stochastics in TidalCycles
-
 All stochastic operations in TidalCycles default to using the same stream of
 random numbers because Haskell. In the example below the panning is slanted to
 the right. We can hear that there's something missing on the left. We can fix
