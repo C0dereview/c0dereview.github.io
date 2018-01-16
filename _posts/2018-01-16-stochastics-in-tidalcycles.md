@@ -20,7 +20,7 @@ a unique stream of random numbers for each of the two parameters. This fixes the
 problem with the panning and we can think about getting a Computer Science
 degreee later (I would be so proud of you!).
 
-```shell
+```haskell
 d1
 $ s "gab*8?"
 # pan rand
@@ -28,7 +28,7 @@ $ s "gab*8?"
 
 Compare the above example to the one just below here.
 
-```shell
+```haskell
 d1
 $ s "gab*8?"
 # pan (slow 0.1 $ rand)
@@ -36,7 +36,7 @@ $ s "gab*8?"
 
 Here is an example with more parameters that each get a unique random stream.
 
-```shell
+```haskell
 d1
 $ s "gab*9?"
 # pan (slow 0.1 $ rand)
