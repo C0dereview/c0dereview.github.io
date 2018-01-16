@@ -7,16 +7,17 @@ categories: tutorial
 tags: TidalCycles tutorial
 ---
 
-All stochastic operations in TidalCycles default to using the same stream of
-random numbers because Haskell. In the example below the panning is slanted to
-the right. We can hear that there's something missing on the left. We can fix
-this by reading the random stream at a different speed. It's best we don't think
-about this too hard because it could unravel the very fabric of the space time
-continuum and destroy the entire universe if we do (no state in Haskell). For
-our intents and purposes doing it this way we get to think about our results as
-a unique stream of random numbers for each of the two parameters. This fixes the
-problem with the panning and we can think about getting a Computer Science
-degreee later (I would be so proud of you!).
+All [stochastic](https://en.wikipedia.org/wiki/Stochastic#music) operations in
+TidalCycles default to using the same stream of random numbers because Haskell.
+In the example below the panning is slanted to the right. We can hear that
+there's something missing on the left. We can fix this by reading the random
+stream at a different speed. It's best we don't think about this too hard
+because it could unravel the very fabric of the space time continuum and destroy
+the entire universe if we do (no state in Haskell). For our intents and purposes
+doing it this way we get to think about our results as a unique stream of random
+numbers for each of the two parameters. This fixes the problem with the panning
+and we can think about getting a Computer Science degree later (I would be so
+proud of you!).
 
 ```haskell
 d1
