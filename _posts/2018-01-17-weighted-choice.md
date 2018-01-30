@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Weighted choice"
+date:   2018-01-07 15:02:00 +0100
+author: Daniel M Karlsson
+categories: tutorial
+tags: TidalCycles tutorial
+---
+
 [Haskell](www.haskell.org/) is a thing. TidalCycles is written in Haskell so we get to use it inside
 of TidalCycles if we want. This means we can add custom functionality like
 bells, whistles or even a [molecular
