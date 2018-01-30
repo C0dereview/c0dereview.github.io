@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Weighted choice"
-date:   2018-01-07 15:02:00 +0100
+date:   2018-01-30 15:02:00 +0100
 author: Daniel M Karlsson
 categories: tutorial
 tags: TidalCycles tutorial
